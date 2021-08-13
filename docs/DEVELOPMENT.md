@@ -1,3 +1,5 @@
+# Development Guide
+
 ## Dependencies
 
 This is a static website utilizing [Ruby](https://www.ruby-lang.org/en/) with [Jekyll](https://jekyllrb.com).
@@ -15,3 +17,10 @@ jekyll taghead.github.io
 ```
 Following that enter that directory and setup the git remote for https://github.com/taghead/taghead.github.io
 
+## Serving site locally
+
+In an development environment utilize the following command to host the site locally http://localhost:4000. 
+
+```
+bundle exec jekyll serve
+```
