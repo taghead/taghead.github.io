@@ -1,0 +1,1 @@
+A blog providing an informal insight towards topics of interest. 
