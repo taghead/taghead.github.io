@@ -18,5 +18,7 @@ I recently graduated from RMIT University with a Bachelor of Information Technol
 
 # My projects
 
-Currently my public projects are:
-- [taghead.xyz](https://github.com/taghead/taghead.xyz) live at https://taghead.xyz/
+| Project      | Description | GitHub      | Live Demo | Preview |
+| :-----------: | :-----------: | :-----------: | :-----------: |
+|  🍔 taghead.xyz 🍔 | A burger themed website with planned user generated content elements. Utilizing Angular, Supabase, Sass and Nginx. | [{{ site.github_logo }}](https://github.com/taghead/taghead.xyz)   | [🎬](https://taghead.xyz/). | ![preview](https://raw.githubusercontent.com/taghead/taghead.xyz/main/docs/img/previews/v0.15/v0.15_Desktop.gif) |
+|  🍔 taghead.xyz 🍔 | A burger themed website with planned user generated content elements. Utilizing Angular, Supabase, Sass and Nginx. | [{{ site.github_logo }}](https://github.com/taghead/taghead.xyz)   | [🎬](https://taghead.xyz/). | ![preview](https://raw.githubusercontent.com/taghead/taghead.xyz/main/docs/img/previews/v0.15/v0.15_Desktop.gif) |
