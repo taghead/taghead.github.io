@@ -17,10 +17,12 @@ $main-height: 100%
 
 // Table Variables
 $table-data-padding: 5px
+$table-padding-right: $main-left-margin
 $github-logo-min-width: 32px
 $github-logo-max-width: 64px
-$image-min-width: 100px
-$image-max-width: 600px
+$image-min-width: 250px
+$image-max-width: 75%
+$image-max-height: 400px
 
 // Class selectors
 .nav
@@ -63,6 +65,7 @@ svg
 
 table
   border-spacing: 0
+  padding-right: $table-padding-right
   
   td
     border: 1px solid rgba($base-text, .1)
@@ -92,6 +95,7 @@ table
     img
       min-width: $image-min-width
       max-width: $image-max-width
+      max-height: $image-max-height
 
     img[alt="GitHub Link"]
       min-width: $github-logo-min-width
