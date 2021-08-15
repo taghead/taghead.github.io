@@ -11,15 +11,16 @@ $nav-width: 50px
 $nav-background: #4B513F
 
 // Main Variables
-$main-left-margin: 25%
+$main-left-margin: 10%
 $main-padding: 1px 16px
 $main-height: 100%
 
 // Table Variables
-$github-logo-min-width = 32px
-$github-logo-max-width = 64px
-$image-min-width = 250px
-$image-max-width = 600px
+$table-data-padding: 5px
+$github-logo-min-width: 32px
+$github-logo-max-width: 64px
+$image-min-width: 100px
+$image-max-width: 600px
 
 // Class selectors
 .nav
@@ -62,15 +63,19 @@ svg
 
 table
   border-spacing: 0
+  
   td
     border: 1px solid rgba($base-text, .1)
-    padding: 10px
+    padding: $table-data-padding
+
   th
     background-color: rgba( invert($base), .5 )
+
   tr
     background-color: rgba( invert($base), .2 )
     &:nth-child(even)
       background-color: rgba( invert($base), .1 )
+      
     &:first-child td
       border-top: 0
 
@@ -83,9 +88,11 @@ table
 
     td:last-child
       border-right: 0
+
     img
       min-width: $image-min-width
       max-width: $image-max-width
+
     img[alt="GitHub Link"]
       min-width: $github-logo-min-width
       max-width: $github-logo-max-width
