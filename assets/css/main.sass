@@ -1,5 +1,47 @@
 ---
 ---
 
+
+// Variables
+$base: #181A1B
+$nav-background: #4B513F
+
+// Class selectors
+.base-colour
+  background: $base
+
+// Element selectors
 html
-  background-color: #4e0000
+  background: $base
+
+body
+  margin: 0
+
+  ul
+    list-style-type: none
+    margin: 0
+    padding: 0
+    width: 5%
+    background-color: $nav-background
+    position: fixed
+    height: 100%
+    overflow: auto
+
+  li a
+    display: block
+    color: #000
+    padding: 8px 16px
+    text-decoration: none
+
+    &.active
+      background-color: #04AA6D
+      color: white
+
+    &:hover:not(.active)
+      background-color: #555
+      color: white
+
+  main
+    margin-left: 25%
+    padding: 1px 16px
+    height: 1000px

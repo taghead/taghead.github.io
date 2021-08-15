@@ -1,11 +1,25 @@
 <!doctype html>
 <html>
+
   <head>
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}" />
   </head>
+
   <body>
-    {{ content }}
+
+    <ul>
+      <li><a href="#home">🏠</a></li>
+      <li><a href="#news">📰</a></li>
+      <li><a href="#contact">📝</a></li>
+      <li><a href="#about">📙</a></li>
+    </ul>
+    
+    <main>
+      {{ content }}
+    </main>
+
   </body>
+
 </html>
