@@ -7,7 +7,7 @@ title: Home
 ---
 
 <!-- Markdown Variables -->
-[logo_github]: /assets/images/logo_github.png
+[logo_github]: assets/images/logo_github.png
 
 # About me
 
