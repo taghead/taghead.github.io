@@ -55,15 +55,28 @@ svg
   background-color: $base-text
 
 table
-  border-collapse: collapse
   border-spacing: 0
-  width: 100%
-  display: table
+  td
+    border: 1px solid rgba($base-text, .1)
+    padding: 10px
   th
     background-color: rgba( invert($base), .5 )
   tr
-    &:nth-child(odd)
-      background-color: rgba( invert($base), .2 )
-
+    background-color: rgba( invert($base), .2 )
     &:nth-child(even)
-      background-color: rgba( invert($base), .3 )
+      background-color: rgba( invert($base), .1 )
+    &:first-child td
+      border-top: 0
+
+    td:first-child
+      border-left: 0
+      font-weight: bold
+
+    &:last-child td
+      border-bottom: 0
+
+    td:last-child
+      border-right: 0
+    img
+      width: 100%
+      min-width: 200px
