@@ -20,5 +20,5 @@ I recently graduated from RMIT University with a Bachelor of Information Technol
 
 | Project | Description |  Preview |
 | :-----: | :---------: | :-----: | :-----: |
-|  taghead.xyz [{{ site.github_logo }}](https://github.com/taghead/taghead.xyz) [🎬](https://taghead.xyz/) | A burger themed website with planned user generated content elements. Utilizing Angular, Supabase, Sass and Nginx. | ![preview](https://raw.githubusercontent.com/taghead/taghead.xyz/main/docs/img/previews/v0.15/v0.15_Desktop.gif) |
-|  taghead.xyz [{{ site.github_logo }}](https://github.com/taghead/taghead.xyz) [🎬](https://taghead.xyz/) | A burger themed website with planned user generated content elements. Utilizing Angular, Supabase, Sass and Nginx. | ![preview](https://raw.githubusercontent.com/taghead/taghead.xyz/main/docs/img/previews/v0.15/v0.15_Desktop.gif) |
+|  taghead.xyz <br/> [{{ site.github_logo }}](https://github.com/taghead/taghead.xyz) [🎬](https://taghead.xyz/) | A burger themed website with planned user generated content elements. Utilizing Angular, Supabase, Sass and Nginx. | ![preview](https://raw.githubusercontent.com/taghead/taghead.xyz/main/docs/img/previews/v0.15/v0.15_Desktop.gif) |
+|  taghead.xyz <br/> [{{ site.github_logo }}](https://github.com/taghead/taghead.xyz) [🎬](https://taghead.xyz/) | A burger themed website with planned user generated content elements. Utilizing Angular, Supabase, Sass and Nginx. | ![preview](https://raw.githubusercontent.com/taghead/taghead.xyz/main/docs/img/previews/v0.15/v0.15_Desktop.gif) |
