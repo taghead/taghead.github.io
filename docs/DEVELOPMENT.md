@@ -17,6 +17,8 @@ jekyll taghead.github.io
 ```
 Following that enter that directory and setup the git remote for https://github.com/taghead/taghead.github.io
 
+The scaffolding from henceforth will be minimized by removing redundancies such as default variables and posts plugin.
+
 ## Serving site locally
 
 In an development environment utilize the following command to host the site locally http://localhost:4000. 
