@@ -21,8 +21,25 @@ I recently graduated from RMIT University with a Bachelor of Information Technol
 
 # My projects
 
-| Project | Description |
-| :-----: | :---------: |
-| taghead.xyz <br/> [![GitHub Link][logo_github]](https://github.com/taghead/taghead.xyz) [🎬](https://taghead.xyz/) <br/> ![preview](https://raw.githubusercontent.com/taghead/taghead.xyz/main/docs/img/previews/v0.15/v0.15_Desktop.gif) | A burger themed website with planned user generated content elements. Utilizing Angular, Supabase, Sass and Nginx. |
-| Qwirkle Game CLI <br/> [![GitHub Link][logo_github]](https://github.com/taghead/Qwirkle-Game-CLI) <br/> ![preview](https://raw.githubusercontent.com/taghead/Qwirkle-Game-CLI/master/docs/assets/img/demo.gif) | The final deliverable for Bachelor of Information Technology - Advanced Programming showcasing knowledge in C++ headers, classes, data structures (linkedlist), loops, if logic, and fundamental libraries. |
-| Recruiter-Match-Making <br/> [![GitHub Link][logo_github]](https://github.com/taghead/Recruiter-Match-Making) <br/> | Catered to recruiters it is a platform where recruitees apply and jobs are automatically matched to recruiters listings. |
+<table class="projects-table">
+  <thead>
+    <tr>
+      <th>Project</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>taghead.xyz <br /> <a href="https://github.com/taghead/taghead.xyz"><img src="assets/images/logo_github.png" alt="GitHub Link" /></a> <a href="https://taghead.xyz/">🎬</a> <br /> <img src="https://raw.githubusercontent.com/taghead/taghead.xyz/main/docs/img/previews/v0.15/v0.15_Desktop.gif" alt="preview" /></td>
+      <td>A burger themed website with planned user generated content elements. Utilizing Angular, Supabase, Sass and Nginx.</td>
+    </tr>
+    <tr>
+      <td>Qwirkle Game CLI <br /> <a href="https://github.com/taghead/Qwirkle-Game-CLI"><img src="assets/images/logo_github.png" alt="GitHub Link" /></a> <br /> <img src="https://raw.githubusercontent.com/taghead/Qwirkle-Game-CLI/master/docs/assets/img/demo.gif" alt="preview" /></td>
+      <td>The final deliverable for Bachelor of Information Technology - Advanced Programming showcasing knowledge in C++ headers, classes, data structures (linkedlist), loops, if logic, and fundamental libraries.</td>
+    </tr>
+    <tr>
+      <td>Recruiter-Match-Making <br /> <a href="https://github.com/taghead/Recruiter-Match-Making"><img src="assets/images/logo_github.png" alt="GitHub Link" /></a> <br /></td>
+      <td>Catered to recruiters it is a platform where recruitees apply and jobs are automatically matched to recruiters listings.</td>
+    </tr>
+  </tbody>
+</table>

@@ -22,11 +22,11 @@ $main-height: 100%
 // Table Variables
 $table-data-padding: 5px
 $table-padding-right: $main-left-margin
-$github-logo-min-width: 32px
-$github-logo-max-width: 64px
-$image-min-width: 250px
-$image-max-width: 75%
-$image-max-height: 400px
+$table-github-logo-min-width: 32px
+$table-github-logo-max-width: 64px
+$preview-image-min-width: 250px
+$preview-image-max-width: 75%
+$preview-image-max-height: 400px
 
 // Class selectors
 .nav
@@ -51,6 +51,17 @@ $image-max-height: 400px
       background-color: darken($nav-background, 10)
       color: $base-text
 
+.projects-table
+  tr
+    img
+      min-width: $preview-image-min-width
+      max-width: $preview-image-max-width
+      max-height: $preview-image-max-height
+
+    img[alt="GitHub Link"]
+      min-width: $table-github-logo-min-width
+      max-width: $table-github-logo-max-width
+
 // Element selectors
 html
   background: $base
@@ -64,14 +75,12 @@ main
   padding: $main-padding
   height: $main-height
 
-svg
-  background-color: $base-text
-
 table
   border-spacing: 0
   padding-right: $table-padding-right
   
   td
+    text-align: center
     border: 1px solid rgba($base-text, .1)
     padding: $table-data-padding
 
@@ -95,12 +104,3 @@ table
 
     td:last-child
       border-right: 0
-
-    img
-      min-width: $image-min-width
-      max-width: $image-max-width
-      max-height: $image-max-height
-
-    img[alt="GitHub Link"]
-      min-width: $github-logo-min-width
-      max-width: $github-logo-max-width
