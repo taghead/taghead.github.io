@@ -11,7 +11,9 @@ $base: #181A1B
 $base-text: #ffffff
 
 // Navbar Variables
-$nav-width: 50px
+$md-media-trigger-width-offset: 119px
+$md-nav-width: 50px
+$lg-nav-width: 110px
 $nav-background: #4B513F
 
 // Main Variables
@@ -33,15 +35,19 @@ $preview-image-max-height: 400px
   ul
     margin: 0
     padding: 0
-    width: $nav-width
+    width: $lg-nav-width
     background-color: $nav-background
     position: fixed
     height: 100%
     overflow: auto
+    @media only screen and (max-width: $md+$md-media-trigger-width-offset)
+      width: $md-nav-width
 
   li a
     display: block
     padding: 8px 16px
+    text-decoration: none
+    color: $base-text
 
     &.active
       background-color: lighten($nav-background, 20)
