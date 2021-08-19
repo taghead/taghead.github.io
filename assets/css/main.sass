@@ -3,7 +3,8 @@
 
 // Screen Sizes
 $sm: 576px
-$md: 768px
+$sm-md: 768px
+$md: 854px
 $lg: 992px
 
 // Base Variables
@@ -11,7 +12,7 @@ $base: #181A1B
 $base-text: #ffffff
 
 // Navbar Variables
-$md-media-trigger-width-offset: 119px
+$md-media-trigger-width-offset: 0px
 $md-nav-width: 11%
 $lg-nav-width: 100px
 $nav-background: #4B513F
@@ -41,7 +42,7 @@ $preview-image-max-height: 400px
     height: 100%
     overflow: auto
     text-align: center
-    @media only screen and (max-width: $md+$md-media-trigger-width-offset)
+    @media only screen and (max-width: $md)
       width: $md-nav-width
       strong
         display: none
