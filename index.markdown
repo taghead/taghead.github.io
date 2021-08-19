@@ -28,7 +28,7 @@ I recently graduated from RMIT University with a Bachelor of Information Technol
   <tbody>
     <!-- taghead.xyz -->
     <tr>
-      <td>taghead.xyz <br /> <a href="https://github.com/taghead/taghead.xyz"><img src="assets/images/logo_github.png" /></a> <a href="https://taghead.xyz/">🎬</a> <br /> <img src="https://raw.githubusercontent.com/taghead/taghead.xyz/main/docs/img/previews/v0.15/v0.15_Desktop.gif" alt="preview" /> </td>
+      <td>taghead.xyz <br /> <a href="https://github.com/taghead/taghead.xyz"><img src="assets/images/logo_github.png" /></a> <a href="https://taghead.xyz/">🎬</a> <br /> <img src="https://raw.githubusercontent.com/taghead/taghead.xyz/main/docs/img/previews/v0.15/v0.15_Desktop.gif" alt="preview" /></td>
       <td>A burger themed website with planned user generated content elements. Utilizing Angular, Supabase, Sass and Nginx.</td>
     </tr>
     <tr>

@@ -25,11 +25,15 @@ $main-height: 100%
 // Table Variables
 $table-data-padding: 5px
 $table-padding-right: $main-left-margin
-$table-github-logo-min-width: 32px
-$table-github-logo-max-width: 64px
+
+// Projects Table Variables
+$table-roundness: 80px
 $preview-image-min-width: 250px
 $preview-image-max-width: 75%
 $preview-image-max-height: 400px
+$table-github-logo-min-width: 32px
+$table-github-logo-max-width: 64px
+$md-table-height: 125px
 
 // Class selectors
 .nav
@@ -62,6 +66,29 @@ $preview-image-max-height: 400px
       color: $base-text
 
 .projects-table
+  th:first-of-type
+    border-top-left-radius: $table-roundness
+  th:last-of-type
+    border-top-right-radius: $table-roundness
+  tr:last-of-type
+      border-bottom-right-radius: $table-roundness
+  tr:last-of-type td:first-of-type
+    border-bottom-left-radius: $table-roundness
+  tr:last-of-type td:last-of-type
+    border-bottom-right-radius: $table-roundness
+  @media only screen and (max-width: $md)
+    td:nth-child(1)
+      border-top-left-radius: $table-roundness
+      border-top-right-radius: $table-roundness
+    td:nth-child(2)
+      border-bottom-left-radius: $table-roundness
+      border-bottom-right-radius: $table-roundness
+    tr:last-of-type td:first-of-type
+      border-bottom-left-radius: 0
+    td:nth-child(2)
+      height: $md-table-height
+      
+
   tr
     img
       min-width: $preview-image-min-width
@@ -72,9 +99,10 @@ $preview-image-max-height: 400px
       min-width: $table-github-logo-min-width
       max-width: $table-github-logo-max-width
     @media only screen and (max-width: $md)
-      td:nth-child(2), th:nth-child(2)
-        display: none
-      p
+      td
+        display: block
+        border: none
+      th
         display: none
 
 // Element selectors
@@ -98,12 +126,12 @@ table
     text-align: center
     border: 1px solid rgba($base-text, .1)
     padding: $table-data-padding
+    background-color: rgba( invert($base), .2 )
 
   th
     background-color: rgba( invert($base), .5 )
 
   tr
-    background-color: rgba( invert($base), .2 )
     &:nth-child(even)
       background-color: rgba( invert($base), .1 )
       
