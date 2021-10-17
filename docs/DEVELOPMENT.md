@@ -1,23 +1,45 @@
 # Development Guide
 
-## Dependencies
-
 This is a static website utilizing [Ruby](https://www.ruby-lang.org/en/) with [Jekyll](https://jekyllrb.com).
 
-To begin follow the official [Jekyll instructions](https://jekyllrb.com/docs/installation/windows/) to install the software.
 
-## Intial Steps
+## Dependencies
 
+To begin follow the official [Jekyll instructions](https://jekyllrb.com/docs/installation/).
 
-These are already done and should not be repeated unless recreating the project from scratch.
+## Folder Structure
 
-Once done generate their scaffolding using the command
 ```
-jekyll taghead.github.io
+│   .gitignore
+│   404.html
+│   Gemfile
+│   Gemfile.lock
+│   index.markdown
+│   README.md
+│   _config.yml
+|
+├───assets
+│   ├───css
+│   │       main.sass
+│   │
+│   └───images
+│           logo_github.png
+│
+├───docs
+│       DEVELOPMENT.md
+│
+├───_layouts
+│       default.html
 ```
-Following that enter that directory and setup the git remote for https://github.com/taghead/taghead.github.io
 
-The scaffolding from henceforth will be minimized by removing redundancies such as default variables and posts plugin.
+|Folder|Description|
+|----|----|
+|_site and .jekyll-cache    |  Local artifacts of serving the website. DO NOT PUSH TO REPO |
+|[/assets/](/assets/)       |  Contains websites assets such as sass, scss, css and images |
+|[/docs/](/docs/)           |  Contains documentation |
+|[/_layouts/](/_layouts/)   |  Contains html templates used by pages in [/_pages](/_pages/) |
+|[/_pages](/_pages/)        |  Contains markdown for pages and their content
+
 
 ## Serving site locally
 
@@ -25,4 +47,15 @@ In an development environment utilize the following command to host the site loc
 
 ```
 bundle exec jekyll serve
+```
+
+## Mentions
+
+These are steps that have already been completed and should not be repeated unless recreating the project from scratch.
+
+### Generate Scaffholding
+
+Once done generate their scaffolding using the command
+```
+jekyll taghead.github.io
 ```
