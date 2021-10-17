@@ -40,6 +40,7 @@ To begin follow the official [Jekyll instructions](https://jekyllrb.com/docs/ins
 |[/_layouts/](/_layouts/)   |  Contains html templates used by pages in [/_pages](/_pages/) |
 |[/_pages](/_pages/)        |  Contains markdown for pages and their content
 
+Information on additional files and folders following Jekylls conventions can be found at [https://jekyllrb.com/docs/structure/](https://jekyllrb.com/docs/structure/). 
 
 ## Serving site locally
 
