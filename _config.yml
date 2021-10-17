@@ -15,11 +15,11 @@
 #   - jekyll-feed
 
 exclude:
-   - /docs/
-   - /README.md
+   - docs/
+   - README.md
 
 include:
- - /_pages/
+ - _pages/
 
 sass:
   style: compact
