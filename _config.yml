@@ -14,15 +14,15 @@
 #   - jekyll-sass-converter
 #   - jekyll-feed
 
-site_version:  1.00
+site_version: 0.25
 
 exclude:
    - /docs/
    - /README.md
 
 include:
-   - /_pages/
-   - /index.markdown
+ - /_pages/
+ - /index.markdown
 
 sass:
   style: compact
