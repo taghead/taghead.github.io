@@ -14,8 +14,13 @@
 #   - jekyll-sass-converter
 #   - jekyll-feed
 
+site_version:  1.00
+
 exclude:
-   - docs/
+   - /docs/
+
+include:
+   - /_pages/
 
 sass:
   style: compact
