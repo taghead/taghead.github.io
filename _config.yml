@@ -22,6 +22,7 @@ exclude:
 
 include:
    - /_pages/
+   - /index.markdown
 
 sass:
   style: compact
