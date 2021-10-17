@@ -16,10 +16,6 @@
 
 exclude:
    - docs/
-   - README.md
-
-include:
- - _pages/
 
 sass:
   style: compact
