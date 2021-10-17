@@ -18,6 +18,7 @@ site_version:  1.00
 
 exclude:
    - /docs/
+   - /README.md
 
 include:
    - /_pages/
