@@ -22,5 +22,4 @@ include:
  - /_pages/
 
 sass:
-  sass_dir: /_sass
   style: compact
