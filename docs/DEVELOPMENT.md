@@ -7,38 +7,24 @@ This is a static website utilizing [Ruby](https://www.ruby-lang.org/en/) with [J
 
 To begin follow the official [Jekyll instructions](https://jekyllrb.com/docs/installation/).
 
-## Folder Structure
+## Basic Folder Structure
 
 ```
-│   .gitignore
-│   404.html
-│   Gemfile
-│   Gemfile.lock
-│   index.markdown
-│   README.md
-│   _config.yml
-|
-├───assets
-│   ├───css
-│   │       main.sass
-│   │
-│   └───images
-│           logo_github.png
-│
-├───docs
-│       DEVELOPMENT.md
-│
-├───_layouts
-│       default.html
+├───  assets
+├───  docs
+├───  _layouts
+├───  _pages
+├───  index.markdown
 ```
 
-|Folder|Description|
+|Folder/File|Description|
 |----|----|
-|_site and .jekyll-cache    |  Local artifacts of serving the website. DO NOT PUSH TO REPO |
-|[/assets/](/assets/)       |  Contains websites assets such as sass, scss, css and images |
-|[/docs/](/docs/)           |  Contains documentation |
-|[/_layouts/](/_layouts/)   |  Contains html templates used by pages in [/_pages](/_pages/) |
-|[/_pages](/_pages/)        |  Contains markdown for pages and their content
+|_site and .jekyll-cache              |  Local artifacts of serving the website. DO NOT PUSH TO REPO |
+|[/assets/](/assets/)                 |  Contains websites assets such as sass, scss, css and images |
+|[/docs/](/docs/)                     |  Contains documentation |
+|[/_layouts/](/_layouts/)             |  Contains html templates used by pages in [/_pages](/_pages/) |
+|[/_pages](/_pages/)                  |  Contains markdown for pages and their content
+|[/index.markdown](/index.markdown)   |  Contains markdown for index page
 
 Information on additional files and folders following Jekylls conventions can be found at [https://jekyllrb.com/docs/structure/](https://jekyllrb.com/docs/structure/). 
 
