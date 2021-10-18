@@ -8,15 +8,15 @@ title: Home
 
 # About me
 
-My name is Andrew, and I'd want to introduce myself.
+Hello I'm Andrew, prepared and capable of doing well under pressure.
 
-I am adept at handling several responsibilities on a daily basis and doing well under pressure.
+In order to get the greatest outcomes, I like to work in a team. Promoting professional communication and building excellent connections with others.
 
-In order to get the greatest outcomes, I love working in Scrum Teams and adhering to Agile, promoting professional communication and building excellent connections with others.
+# Education
 
-I recently graduated from RMIT University with a Bachelor of Information Technology and am eager to begin my career. 
+# Skills
 
-# My projects
+# Projects
 
 <table class="projects-table" style='text-align:center;'>
   <thead>
@@ -41,4 +41,6 @@ I recently graduated from RMIT University with a Bachelor of Information Technol
     </tr>
   </tbody>
 </table>
+
+# Socials
 
