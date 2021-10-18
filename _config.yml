@@ -21,9 +21,7 @@ exclude:
    - /README.md
 
 include:
- - /_pages/*
- - /index.markdown
- - /_pages/test.md
+ - _pages
 
 sass:
   style: compact
