@@ -25,6 +25,9 @@ $main-height: 100%
 // Table Variables
 $table-data-padding: 5px
 $table-padding-right: $main-left-margin
+$table-header-background-color: #202223
+$table-odd-row-background-color: #1D1E1F
+$table-even-row-background-color: #151515
 
 // Projects Table Variables
 $table-roundness: 80px
@@ -133,16 +136,16 @@ table
   
   td
     text-align: center
-    border: 1px solid rgba($base-text, .1)
+    border: 1px solid $table-odd-row-background-color
     padding: $table-data-padding
-    background-color: rgba( invert($base), .2 )
+    background-color: $table-odd-row-background-color
 
   th
-    background-color: rgba( invert($base), .5 )
+    background-color: $table-header-background-color
 
   tr
     &:nth-child(even)
-      background-color: rgba( invert($base), .1 )
+      background-color: $table-even-row-background-color
       
     &:first-child td
       border-top: 0
