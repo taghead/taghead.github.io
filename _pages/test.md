@@ -7,3 +7,4 @@ title: Home
 ---
 
 ## Test
+Placeholder page used for testing.

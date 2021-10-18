@@ -14,7 +14,7 @@
 #   - jekyll-sass-converter
 #   - jekyll-feed
 
-site_version: 0.27
+site_version: 0.28
 
 exclude:
    - /docs/
