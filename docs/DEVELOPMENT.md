@@ -58,7 +58,7 @@ Information on additional files and folders following Jekylls conventions can be
 
     </html>
     ```
-    note that the stylesheet points to [/assets/css/newpage.css](/assets/css/newpage.css)
+    note that the stylesheet points to [/assets/css/newpage.css](/assets/css/newpage.css). This is due to sass files being preprocessed into css before serving. 
 
 
 2. Create [/assets/css/newpage.sass](/assets/css/newpage.sass) and populate it with 
@@ -66,7 +66,7 @@ Information on additional files and folders following Jekylls conventions can be
     ---
     ---
     
-    // The Tripple dashes, spacing and a comment on this line is required.
+    // The Tripple dashes, spacing and a comment on this line are all required to inform Jekyll to preprocess this file. Read https://jekyllrb.com/docs/assets/ for more information.
     html
       background: #ffe600
     ```
