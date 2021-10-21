@@ -36,7 +36,7 @@ In order to get the greatest outcomes, I like to work in a team. Promoting profe
       <td>The final deliverable for Bachelor of Information Technology - Advanced Programming showcasing knowledge in C++ headers, classes, data structures (linkedlist), loops, if logic, and fundamental libraries.</td>
     </tr>
     <tr>
-      <td>Recruiter-Match-Making <br /> <a href="https://github.com/taghead/Recruiter-Match-Making"><img src="assets/images/logo_github.png" /></a> <a href="https://recruitment.taghead.xyz/">🎬</a>  <br /> <img src="https://raw.githubusercontent.com/taghead/Recruiter-Match-Making/master/docs/img/preview.gif" alt="preview" /></td>
+      <td>Recruiter-Match-Making <br /> <a href="https://github.com/taghead/Recruiter-Match-Making"><img src="assets/images/logo_github.png" /></a> 🎬</a>  <br /> <img src="https://raw.githubusercontent.com/taghead/Recruiter-Match-Making/master/docs/img/preview.gif" alt="preview" /></td>
       <td>Catered to recruiters it is a platform where recruitees apply and jobs are automatically matched to recruiters listings.</td>
     </tr>
   </tbody>
