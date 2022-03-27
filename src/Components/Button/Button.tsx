@@ -1,12 +1,21 @@
+import "./button.css";
 interface props {
   text?: string;
+  icon?: any;
+  onClick?: any;
   className?: string;
 }
 
-export const Button = ({ className, text = "Button" }: props) => {
+export const Button = ({
+  text = "Button",
+  icon = "🏠",
+  onClick = () => {},
+  className,
+}: props) => {
   return (
-    <div>
-      <p>{text}</p>
-    </div>
+    <button className="button" onClick={onClick}>
+      <div className="buttonIcon">{icon}</div>
+      <text className="buttonText">{text}</text>
+    </button>
   );
 };

@@ -1,0 +1,41 @@
+@keyframes mymove {
+  from {
+    left: -15px;
+  }
+  to {
+    left: 0%;
+  }
+}
+
+.button {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  row-gap: 10px;
+  column-gap: 20px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.button:hover {
+  opacity: 50%;
+  cursor: pointer;
+}
+
+.buttonIcon {
+  text-align: left;
+}
+
+.buttonText {
+  text-align: right;
+  position: relative;
+  animation: mymove 3s 1;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
