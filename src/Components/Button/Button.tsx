@@ -2,6 +2,7 @@ import "./button.css";
 interface props {
   text?: string;
   icon?: any;
+  bgColor?: "";
   onClick?: any;
   className?: string;
 }
