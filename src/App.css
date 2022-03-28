@@ -1,8 +1,34 @@
 :root {
-  --color-water: #caf4f4;
-  --color-ivory: #fcffe9;
-  --color-blanched-almond: #fff2cc;
-  --color-pale-pink: #fde0d9;
-  --color-tea-green: #caefd1;
   background-image: url(/public/background.svg);
+}
+
+/* Shadows */
+.popShadow {
+  box-shadow: 0.1rem 0.1rem 0.1rem black;
+}
+
+/* Colors */
+.bgWater,
+.bgWaterHover:hover {
+  background-color: #caf4f4;
+}
+
+.bgIvory,
+.bgIvoryHover:hover {
+  background-color: #fcffe9;
+}
+
+.bgBlanchedAlmond,
+.bgBlanchedAlmondHover:hover {
+  background-color: #fff2cc;
+}
+
+.bgPalePink,
+.bgPalePinkHover:hover {
+  background-color: #fde0d9;
+}
+
+.bgTeaGreen,
+.bgTeaGreenHover:hover {
+  background-color: #caefd1;
 }
