@@ -14,4 +14,8 @@ declare global {
     | "bgBlanchedAlmondHover"
     | "bgPalePinkHover"
     | "bgTeaGreenHover";
+
+  type shadows = "popShadow";
+
+  type rounded = "round";
 }
