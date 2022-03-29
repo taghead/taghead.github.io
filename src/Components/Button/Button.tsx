@@ -28,7 +28,7 @@ export const Button = ({
 }: props) => {
   return (
     <button
-      className={`button popShadow ${bgColor} ${bgColorHover} ${className}`}
+      className={`button round popShadow ${bgColor} ${bgColorHover} ${className}`}
       onClick={onClick}
     >
       <div className="buttonIcon">{icon}</div>
