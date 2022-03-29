@@ -1,19 +1,10 @@
 import "./button.css";
+
 interface props {
   text?: string;
   icon?: any;
-  bgColor?:
-    | "bgWater"
-    | "bgIvory"
-    | "bgBlanchedAlmond"
-    | "bgPalePink"
-    | "bgTeaGreen";
-  bgColorHover?:
-    | "bgWaterHover"
-    | "bgIvoryHover"
-    | "bgBlanchedAlmondHover"
-    | "bgPalePinkHover"
-    | "bgTeaGreenHover";
+  bgColor?: bgColor;
+  bgColorHover?: bgColorHover;
   onClick?: any;
   className?: string;
 }
