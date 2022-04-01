@@ -7,6 +7,16 @@
   border-radius: 2rem;
 }
 
+.roundTop {
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+}
+
+.roundBottom {
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+}
+
 /* Shadows */
 .popShadow {
   box-shadow: 0.1rem 0.1rem 0.1rem black;

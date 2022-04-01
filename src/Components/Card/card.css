@@ -1,0 +1,36 @@
+@keyframes easeInFade {
+  from {
+    opacity: 0%;
+    left: -1.5rem;
+  }
+  to {
+    opacity: 100%;
+    left: 0%;
+  }
+}
+
+.card {
+  position: relative;
+  animation: easeInFade 1s 1;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+  color: black;
+}
+
+.cardBody {
+  display: inline-block;
+  display: flex;
+  min-height: 8rem;
+  width: 100%;
+  height: 100%;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+}
+
+.cardTitle {
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
