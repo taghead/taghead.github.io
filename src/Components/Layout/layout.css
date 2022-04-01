@@ -1,11 +1,19 @@
 .layout {
+  background-color: rgba(0, 0, 0, 0.1);
+  background-image: url(/public/background.svg);
+  min-height: 98vh;
+  padding-bottom: 2vh;
+}
+
+.layout > main {
   display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
   justify-content: space-between;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-}
-
-.layout > * {
-  margin: 6px;
+  margin-top: 4rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }

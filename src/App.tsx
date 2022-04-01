@@ -5,12 +5,10 @@ import "./styles/global.css";
 
 function App() {
   return (
-    <>
-      <Layout>
-        <Button />
-        <Card />
-      </Layout>
-    </>
+    <Layout>
+      <Button />
+      <Card /> <Card /> <Card /> <Card />
+    </Layout>
   );
 }
 
