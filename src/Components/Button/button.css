@@ -15,7 +15,6 @@
   text-decoration: none;
   padding: 0.5rem 1rem;
   border: none;
-  display: inline-block;
   display: flex;
   align-items: center;
   column-gap: 1rem;
