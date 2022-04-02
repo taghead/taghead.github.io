@@ -7,9 +7,10 @@ import "./app.css";
 function App() {
   return (
     <Layout>
-      <Button />
       <div className="appIntroduction">
-        Hey there 👋 <br /> I'm Andrew a developer.
+        <p>
+          Hey there 👋 <br /> I'm Andrew a developer.
+        </p>
       </div>
       <div className="appGridContainer">
         <div>

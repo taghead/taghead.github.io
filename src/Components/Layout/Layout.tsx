@@ -3,7 +3,7 @@ import "./layout.css";
 export const Layout = ({ children }: any) => {
   return (
     <div className="layout">
-      <div>Navbar here</div>
+      <div>Github | Twitter | LinkedIn </div>
       <main>{children}</main>
     </div>
   );
