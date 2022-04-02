@@ -2,6 +2,7 @@ import "./card.css";
 
 interface props {
   text?: string;
+  textBody?: any;
   icon?: any;
   bgColor?: bgColor;
   className?: string;
@@ -9,6 +10,7 @@ interface props {
 
 export const Card = ({
   text = "Card - Title",
+  textBody = "Lorem ipsum",
   icon = "🏠",
   bgColor = "bgBlanchedAlmond",
   className,
@@ -19,7 +21,7 @@ export const Card = ({
         <div className="cardIcon">{icon}</div>
         <text>{text}</text>
       </div>
-      <text className="cardBody roundBottom bgWater popShadow">aa</text>
+      <text className="cardBody roundBottom bgWater popShadow">{textBody}</text>
     </div>
   );
 };

@@ -1,0 +1,21 @@
+.app {
+  align-self: start;
+}
+
+.appIntroduction {
+  text-align: center;
+  font-weight: bold;
+  font-size: 52px;
+  background-color: rgba(255, 255, 0, 0.25);
+}
+
+.appGridContainer {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  width: 100%;
+  height: 100%;
+}
+
+.appGridContainer > * {
+  margin: 2rem;
+}
