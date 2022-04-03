@@ -7,7 +7,6 @@
   border-right: 0.15em solid orange;
   white-space: nowrap;
   animation: typing 1s steps(20, end) forwards;
-  width: 100%;
 }
 
 @keyframes typing {
@@ -16,5 +15,6 @@
   }
   to {
     width: 100%;
+    border-color: transparent;
   }
 }
