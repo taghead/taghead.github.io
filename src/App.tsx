@@ -43,7 +43,39 @@ function App() {
             />
           </div>
           <div>
-            <Card text="Education" textBody={<p></p>} />
+            <Card
+              text="Education"
+              textBody={
+                <div className="width-full height-full">
+                  <table className="width-full height-full text-center padding-2">
+                    <tr>
+                      <th>Year</th>
+                      <th>Course</th>
+                    </tr>
+                    <tr>
+                      <td>2015</td>
+                      <td>Victorian Certificate of Education</td>
+                    </tr>
+                    <tr>
+                      <td>2015</td>
+                      <td>Certificate III in Interactive Digital Media</td>
+                    </tr>
+                    <tr>
+                      <td>2016</td>
+                      <td>Certificate IV in Information Technology</td>
+                    </tr>
+                    <tr>
+                      <td>2017 - 2018</td>
+                      <td>Associate Degree in Information Technology</td>
+                    </tr>
+                    <tr>
+                      <td>2020 - 2021</td>
+                      <td>Bachelor of Information Technology</td>
+                    </tr>
+                  </table>
+                </div>
+              }
+            />
           </div>
           <div>
             <Card text="Work" textBody={<p></p>} />
