@@ -5,7 +5,9 @@ interface props {
   textBody?: any;
   icon?: any;
   bgColor?: bgColor;
+  bgColorBody?: bgColor;
   className?: string;
+  classNameBody?: string;
 }
 
 export const Card = ({
@@ -13,15 +15,19 @@ export const Card = ({
   textBody = "Lorem ipsum",
   icon = "🏠",
   bgColor = "bg-blanched-almond",
+  bgColorBody = "bg-pale-pink",
   className,
+  classNameBody,
 }: props) => {
   return (
     <div className={`card`}>
-      <div className="cardTitle round-top bg-blanched-almond pop-shadow">
+      <div className={`cardTitle round-top pop-shadow ${bgColor} ${className}`}>
         <div className="cardIcon">{icon}</div>
         <text>{text}</text>
       </div>
-      <text className="cardBody round-bottom bg-water pop-shadow">
+      <text
+        className={`cardBody round-bottom bg-water pop-shadow ${bgColorBody} ${classNameBody}`}
+      >
         {textBody}
       </text>
     </div>

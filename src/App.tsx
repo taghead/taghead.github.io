@@ -37,7 +37,11 @@ function App() {
         </div>
         <div className="grid grid-cols-1 grid-col-start-2">
           <div>
-            <Card text="About me" textBody={<p></p>} />
+            <Card
+              text="About me"
+              bgColor="bg-blanched-almond"
+              textBody={<p></p>}
+            />
           </div>
           <div>
             <Card text="About me" textBody={<p></p>} />
