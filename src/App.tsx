@@ -43,10 +43,13 @@ function App() {
             />
           </div>
           <div>
-            <Card text="About me" textBody={<p></p>} />
+            <Card text="Education" textBody={<p></p>} />
           </div>
           <div>
-            <Card text="About me" textBody={<p></p>} />
+            <Card text="Work" textBody={<p></p>} />
+          </div>
+          <div>
+            <Card text="Projects" textBody={<p></p>} />
           </div>
         </div>
       </div>

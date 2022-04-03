@@ -13,7 +13,7 @@ interface props {
 export const Card = ({
   text = "Card - Title",
   textBody = "Lorem ipsum",
-  icon = "🏠",
+  icon = "",
   bgColor = "bg-blanched-almond",
   bgColorBody = "bg-pale-pink",
   className,

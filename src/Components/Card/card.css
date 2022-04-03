@@ -21,7 +21,7 @@
 .cardBody {
   display: inline-block;
   display: flex;
-  min-height: 8rem;
+  min-height: 6rem;
   padding-left: 2rem;
   padding-right: 2rem;
   padding-bottom: 2rem;
@@ -29,7 +29,9 @@
 
 .cardTitle {
   display: block;
+  font-weight: bold;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  padding: 0.5rem;
 }
