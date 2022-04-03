@@ -2,14 +2,13 @@ import { Card } from "./Components/Card";
 import { Layout } from "./Components/Layout";
 import "./styles/global.css";
 import "./app.css";
+import { Typewriter } from "./Components/Typewriter";
 
 function App() {
   return (
     <Layout>
       <div className="appIntroduction">
-        <p>
-          Hey there 👋 <br /> I'm Andrew a developer.
-        </p>
+        <Typewriter text={<h1>Hey there 👋 I'm Andrew a developer.</h1>} />
       </div>
       <div className="grid grid-cols-2">
         <div>
