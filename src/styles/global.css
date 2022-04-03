@@ -1,5 +1,5 @@
 :root {
-  background-color: black;
+  background-color: rgba(202, 244, 244, 1);
 }
 
 /* Shapes */
@@ -46,4 +46,65 @@
 .bgTeaGreen,
 .bgTeaGreenHover:hover {
   background-color: rgba(202, 239, 209, 0.5);
+}
+
+/* Grids */
+.grid {
+  display: grid;
+  width: 100%;
+  height: 100%;
+}
+
+.grid > * {
+  margin: 2rem;
+}
+
+/* Grid Sizes */
+.grid-4 {
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+}
+
+.grid-2 {
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+/* Grid Columns Sizes */
+.grid-cols-1 {
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.grid-cols-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-cols-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-cols-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+/* Grid Row Sizes */
+.grid-rows-1 {
+  grid-template-rows: repeat(1, 1fr);
+}
+
+.grid-rows-2 {
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.grid-rows-3 {
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.grid-rows-4 {
+  grid-template-rows: repeat(4, 1fr);
+}
+
+/* Grid Col Start */
+.grid-col-start-2 {
+  grid-column: 2;
 }
