@@ -1,0 +1,25 @@
+/* Colors */
+.bgWater,
+.bgWaterHover:hover {
+  background-color: rgba(202, 244, 244, 0.5);
+}
+
+.bgIvory,
+.bgIvoryHover:hover {
+  background-color: rgba(252, 255, 233, 0.5);
+}
+
+.bgBlanchedAlmond,
+.bgBlanchedAlmondHover:hover {
+  background-color: rgba(255, 242, 204, 0.5);
+}
+
+.bgPalePink,
+.bgPalePinkHover:hover {
+  background-color: rgba(253, 224, 217, 0.5);
+}
+
+.bgTeaGreen,
+.bgTeaGreenHover:hover {
+  background-color: rgba(202, 239, 209, 0.5);
+}
