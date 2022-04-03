@@ -12,14 +12,14 @@ interface props {
 export const Button = ({
   text = "Button",
   icon = "🏠",
-  bgColor = "bgBlanchedAlmond",
-  bgColorHover = "bgTeaGreenHover",
+  bgColor = "bg-blanched-almond",
+  bgColorHover = "bg-tea-green-hover",
   onClick = () => {},
   className,
 }: props) => {
   return (
     <button
-      className={`button round popShadow ${bgColor} ${bgColorHover} ${className}`}
+      className={`button round pop-shadow ${bgColor} ${bgColorHover} ${className}`}
       onClick={onClick}
     >
       <div className="buttonIcon">{icon}</div>

@@ -12,16 +12,18 @@ export const Card = ({
   text = "Card - Title",
   textBody = "Lorem ipsum",
   icon = "🏠",
-  bgColor = "bgBlanchedAlmond",
+  bgColor = "bg-blanched-almond",
   className,
 }: props) => {
   return (
     <div className={`card`}>
-      <div className="cardTitle roundTop bgBlanchedAlmond popShadow">
+      <div className="cardTitle round-top bg-blanched-almond pop-shadow">
         <div className="cardIcon">{icon}</div>
         <text>{text}</text>
       </div>
-      <text className="cardBody roundBottom bgWater popShadow">{textBody}</text>
+      <text className="cardBody round-bottom bg-water pop-shadow">
+        {textBody}
+      </text>
     </div>
   );
 };

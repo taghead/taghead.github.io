@@ -1,25 +1,25 @@
 /* Colors */
-.bgWater,
-.bgWaterHover:hover {
+.bg-water,
+.bg-water-hover:hover {
   background-color: rgba(202, 244, 244, 0.5);
 }
 
-.bgIvory,
-.bgIvoryHover:hover {
+.bg-ivory,
+.bg-ivory-hover:hover {
   background-color: rgba(252, 255, 233, 0.5);
 }
 
-.bgBlanchedAlmond,
-.bgBlanchedAlmondHover:hover {
+.bg-blanched-almond,
+.bg-blanched-almond-hover:hover {
   background-color: rgba(255, 242, 204, 0.5);
 }
 
-.bgPalePink,
-.bgPalePinkHover:hover {
+.bg-pale-pink,
+.bg-pale-pink-hover:hover {
   background-color: rgba(253, 224, 217, 0.5);
 }
 
-.bgTeaGreen,
-.bgTeaGreenHover:hover {
+.bg-tea-green,
+.bg-tea-green-hover:hover {
   background-color: rgba(202, 239, 209, 0.5);
 }

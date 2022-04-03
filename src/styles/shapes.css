@@ -3,12 +3,12 @@
   border-radius: 2rem;
 }
 
-.roundTop {
+.round-top {
   border-top-left-radius: 2rem;
   border-top-right-radius: 2rem;
 }
 
-.roundBottom {
+.round-bottom {
   border-bottom-left-radius: 2rem;
   border-bottom-right-radius: 2rem;
 }

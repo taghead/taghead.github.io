@@ -2,20 +2,20 @@ export {};
 
 declare global {
   type bgColor =
-    | "bgWater"
-    | "bgIvory"
-    | "bgBlanchedAlmond"
-    | "bgPalePink"
-    | "bgTeaGreen";
+    | "bg-water"
+    | "bg-ivory"
+    | "bg-blanched-almond"
+    | "bg-pale-pink"
+    | "bg-tea-green";
 
   type bgColorHover =
-    | "bgWaterHover"
-    | "bgIvoryHover"
-    | "bgBlanchedAlmondHover"
-    | "bgPalePinkHover"
-    | "bgTeaGreenHover";
+    | "bg-water-hover"
+    | "bg-ivory-hover"
+    | "bg-blanched-almond-hover"
+    | "bg-pale-pink-hover"
+    | "bg-tea-green-hover";
 
-  type shadows = "popShadow";
+  type shadows = "pop-shadow";
 
   type rounded = "round";
 }
