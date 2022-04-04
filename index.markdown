@@ -6,6 +6,7 @@ layout: default
 title: Home
 ---
 
+# NOTICE: THIS IS THE OLD PORTFOLIO CHECKOUT HTTPS://ANDREWCHANDER.ME
 # About me
 
 Hello I'm Andrew, prepared and capable of doing well under pressure.
