@@ -1,0 +1,161 @@
+---
+---
+
+// Screen Sizes
+$sm: 576px
+$sm-md: 768px
+$md: 854px
+$lg: 992px
+
+// Base Variables
+$base: #181A1B
+$base-text: #ffffff
+
+// Navbar Variables
+$md-media-trigger-width-offset: 0px
+$md-nav-width: 11%
+$lg-nav-width: 100px
+$nav-background: #4B513F
+
+// Main Variables
+$main-left-margin: 10%
+$main-padding: 1px 16px
+$main-height: 100%
+
+// Table Variables
+$table-data-padding: 5px
+$table-padding-right: $main-left-margin
+$table-header-background-color: #202223
+$table-odd-row-background-color: #1D1E1F
+$table-even-row-background-color: #151515
+
+// Projects Table Variables
+$table-roundness: 80px
+$preview-image-min-width: 250px
+$preview-image-max-width: 75%
+$preview-image-max-height: 400px
+$table-github-logo-min-width: 32px
+$table-github-logo-max-width: 64px
+$md-table-height: 125px
+$md-table-spacing: 20px
+
+// Class selectors
+.nav
+  ul
+    margin: 0
+    padding: 0
+    width: $lg-nav-width
+    background-color: $nav-background
+    position: fixed
+    height: 100%
+    overflow: auto
+    text-align: center
+    @media only screen and (max-width: $sm)
+      width: $md-nav-width
+      font-size: 3vw
+      strong
+        display: none
+    @media only screen and (max-width: $md)
+      width: $md-nav-width
+      strong
+        font-size: 1.7vw
+
+
+  li a
+    display: block
+    padding: 8px 16px
+    text-decoration: none
+    color: $base-text
+
+    &.active
+      background-color: lighten($nav-background, 20)
+      color: white
+
+    &:hover:not(.active)
+      background-color: darken($nav-background, 10)
+      color: $base-text
+
+.projects-table
+  th:first-of-type
+    border-top-left-radius: $table-roundness
+  th:last-of-type
+    border-top-right-radius: $table-roundness
+  tr:last-of-type
+      border-bottom-right-radius: $table-roundness
+  tr:last-of-type td:first-of-type
+    border-bottom-left-radius: $table-roundness
+  tr:last-of-type td:last-of-type
+    border-bottom-right-radius: $table-roundness
+  @media only screen and (max-width: $md)
+    td:nth-child(1)
+      border-top-left-radius: $table-roundness
+      border-top-right-radius: $table-roundness
+    td:nth-child(2)
+      border-bottom-left-radius: $table-roundness
+      border-bottom-right-radius: $table-roundness
+    tr:last-of-type td:first-of-type
+      border-bottom-left-radius: 0
+    td:nth-child(2)
+      height: $md-table-height
+      margin-bottom: $md-table-spacing
+    tr
+      background-color: transparent !important
+      
+  tr
+    img
+      min-width: $preview-image-min-width
+      max-width: $preview-image-max-width
+      max-height: $preview-image-max-height
+
+    img[src="assets/images/logo_github.png"]
+      min-width: $table-github-logo-min-width
+      max-width: $table-github-logo-max-width
+    @media only screen and (max-width: $md)
+      td
+        display: block
+        border: none
+      th
+        display: none
+
+// Element selectors
+html
+  background: $base
+
+body
+  margin: 0
+
+main, footer
+  color: $base-text
+  margin-left: $main-left-margin
+  padding: $main-padding
+  height: $main-height
+
+table
+  border-spacing: 0
+  padding-right: $table-padding-right
+  
+  td
+    text-align: center
+    border: 0px solid $table-odd-row-background-color
+    padding: $table-data-padding
+    background-color: $table-odd-row-background-color
+
+  th
+    background-color: $table-header-background-color
+
+  tr
+    &:nth-child(even)
+      background-color: $table-even-row-background-color
+      
+    &:first-child td
+      border-top: 0
+
+    td:first-child
+      border-left: 0
+      font-weight: bold
+
+    &:last-child td
+      border-bottom: 0
+
+    td:last-child
+      border-right: 0

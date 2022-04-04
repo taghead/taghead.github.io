@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" charset="utf-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}" type="text/css" />
+  </head>
+
+  <body>
+
+    
+    <div class="nav">
+      <ul>
+        <li><a href="#about-me">🏠<strong><br/>About</strong></a></li>
+        <li><a href="#projects">📰<strong><br/>Projects</strong></a></li>
+      </ul>
+    </div>
+    
+    <main>
+      {{ content }}
+    </main>
+
+  </body>
+
+<footer>  
+  Site Version: {{ site.site_version }}
+</footer>
+</html>
