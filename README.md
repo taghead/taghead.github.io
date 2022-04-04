@@ -16,7 +16,26 @@ Well you found it, the super secret source code for my website.
 
 Since your already here check out the site on [https://andrewchander.me](https://andrewchander.me).
 
-| Site                                                        | Description                                                                                                                             |
-| ----------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
-| [andrewchander.me](https://andrewchander.me)                | A react app hosted on Netlify at https://nimble-torte-77b2fb.netlify.app, which is built with React and css.                            |
-| [vanila.andrewchander.me](http://vanilla.andrewchander.me/) | My old portfolio site. A static website hosted on GitHub Pages at https://taghead.github.io, which is built with Ruby, Jekyll and SaSS. |
+| Site                                                        | Description                                                                                                                                                   |
+| ----------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [andrewchander.me](https://andrewchander.me)                | A react app hosted on Netlify at https://nimble-torte-77b2fb.netlify.app, which is built with React and css.                                                  |
+| [vanila.andrewchander.me](http://vanilla.andrewchander.me/) | My old portfolio site, no longer maintained. A static website hosted on GitHub Pages at https://taghead.github.io, which is built with Ruby, Jekyll and SaSS. |
+
+### Todo
+
+- [x] Create systematic boilerplate
+- [x] Implementations Storybook
+- [ ] Create a figma designs
+- [ ] Convert selector specific css to classname to minify code
+- [ ] Add Responsive Design
+- [ ] Add content
+- [ ] Add Parallax Scrolling
+  - [ ] Add anchors to navigate via navbar
+  - [ ] Update navbar based on currently viewed content
+- [ ] Add Socials
+- [ ] Add Contact Me
+- [ ] Consume APIs to add some fun
+  - [ ] Steam Games counter
+  - [ ] Anime Watched counter
+  - [ ] Public GitHub Repository counter
+  - [ ] WakaTime statistics
