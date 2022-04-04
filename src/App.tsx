@@ -104,25 +104,27 @@ function App() {
                       <th>Description</th>
                     </tr>
                     <tr>
+                      <td>lostarkstatus.xyz</td>
+                      <td>
+                        An unofficial server status tracker for the Lost Ark
+                        Game.
+                      </td>
+                    </tr>
+                    <tr>
                       <td>taghead.xyz</td>
                       <td>
                         A website which randomly selects burger themed videos.
-                        Uses Angular, Supabase, Sass, and Nginx.
                       </td>
                     </tr>
                     <tr>
                       <td>Qwirkle Game CLI</td>
-                      <td>
-                        Qwirkle in your terminal. Bachelor's degree assignment
-                        demonstrating know-how of C++ headers, classes, data
-                        structures and libraries.
-                      </td>
+                      <td>Qwirkle in your terminal.</td>
                     </tr>
                     <tr>
                       <td>Recruiter Match Making</td>
                       <td>
-                        A recruitment platform where recruiters apply and jobs
-                        automatically match job listings.
+                        A recruitment platform to match job listings with
+                        workers.
                       </td>
                     </tr>
                   </table>
