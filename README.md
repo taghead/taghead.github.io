@@ -18,5 +18,5 @@ Since your already here check out the site on [https://andrewchander.me](https:/
 
 | Site                                                        | Description                                                                                                                             |
 | ----------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
-| andrewchander.me                                            | A react app hosted on Netlify at https://nimble-torte-77b2fb.netlify.app, which is built with React and css.                            |
+| [andrewchander.me](https://andrewchander.me)                | A react app hosted on Netlify at https://nimble-torte-77b2fb.netlify.app, which is built with React and css.                            |
 | [vanila.andrewchander.me](http://vanilla.andrewchander.me/) | My old portfolio site. A static website hosted on GitHub Pages at https://taghead.github.io, which is built with Ruby, Jekyll and SaSS. |
