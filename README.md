@@ -7,8 +7,16 @@
     <img alt="Storybook" src="https://img.shields.io/badge/Storybook-BC6884?style=for-the-badge&logo=storybook&logoColor=white">
 </div>
 
-### About this repository
+Latest: [![Netlify Status](https://api.netlify.com/api/v1/badges/0c28e0e2-f7ee-4f08-8556-045926fe76a4/deploy-status)](https://app.netlify.com/sites/nimble-torte-77b2fb/deploys)
+Vanilla: [![pages-build-deployment](https://github.com/taghead/taghead.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/taghead/taghead.github.io/actions/workflows/pages/pages-build-deployment)
 
-Hey you found my portfolio sites source code, you can access it on [https://andrewchander.me](https://andrewchander.me) or [https://taghead.github.io](https://taghead.github.io).
+### Hello there
 
-Feel free to check it out :).
+Well you found it, the super secret source code for my website.
+
+Since your already here check out the site on [https://andrewchander.me](https://andrewchander.me).
+
+| Site                                                        | Description                                                                                                                             |
+| ----------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
+| andrewchander.me                                            | A react app hosted on Netlify at https://nimble-torte-77b2fb.netlify.app, which is built with React and css.                            |
+| [vanila.andrewchander.me](http://vanilla.andrewchander.me/) | My old portfolio site. A static website hosted on GitHub Pages at https://taghead.github.io, which is built with Ruby, Jekyll and SaSS. |
