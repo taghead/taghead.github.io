@@ -37,13 +37,6 @@ function App() {
         <div className="grid grid-cols-1 grid-col-start-2">
           <div>
             <Card
-              text="About me"
-              bgColor="bg-blanched-almond"
-              textBody={<p></p>}
-            />
-          </div>
-          <div>
-            <Card
               text="Education"
               textBody={
                 <div className="width-full height-full">
@@ -78,10 +71,64 @@ function App() {
             />
           </div>
           <div>
-            <Card text="Work" textBody={<p></p>} />
+            <Card
+              text="Work"
+              textBody={
+                <div className="width-full height-full">
+                  <table className="width-full height-full text-center padding-2px">
+                    <tr>
+                      <th>Duration</th>
+                      <th>Job</th>
+                    </tr>
+                    <tr>
+                      <td>Nov - 2018 to Dec - 2018</td>
+                      <td>Pick Packer @ Asap Recruitment</td>
+                    </tr>
+                    <tr>
+                      <td>Nov - 2021 to Mar - 2022</td>
+                      <td>Full Stack Developer @ Edcursion</td>
+                    </tr>
+                  </table>
+                </div>
+              }
+            />
           </div>
           <div>
-            <Card text="Projects" textBody={<p></p>} />
+            <Card
+              text="Projects"
+              textBody={
+                <div className="width-full height-full">
+                  <table className="width-full height-full text-center padding-2px">
+                    <tr>
+                      <th>Project</th>
+                      <th>Description</th>
+                    </tr>
+                    <tr>
+                      <td>taghead.xyz</td>
+                      <td>
+                        A website which randomly selects burger themed videos.
+                        Uses Angular, Supabase, Sass, and Nginx.
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Qwirkle Game CLI</td>
+                      <td>
+                        Qwirkle in your terminal. Bachelor's degree assignment
+                        demonstrating know-how of C++ headers, classes, data
+                        structures and libraries.
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Recruiter Match Making</td>
+                      <td>
+                        A recruitment platform where recruiters apply and jobs
+                        automatically match job listings.
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+              }
+            />
           </div>
         </div>
       </div>
