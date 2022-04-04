@@ -13,3 +13,7 @@
 .border-left-solid {
   border-left-style: solid;
 }
+
+.border-none {
+  border: none;
+}

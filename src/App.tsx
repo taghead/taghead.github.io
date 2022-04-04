@@ -7,7 +7,7 @@ import { Typewriter } from "./Components/Typewriter";
 function App() {
   return (
     <Layout>
-      <div className="appIntroduction text-center font-bold bg-highlight-yellow">
+      <div className="app-introduction text-center font-bold bg-highlight-yellow">
         <Typewriter text={<h1>Hey there 👋 I'm Andrew a developer.</h1>} />
       </div>
       <div className="grid grid-cols-2 grid-cols-2-sm">
