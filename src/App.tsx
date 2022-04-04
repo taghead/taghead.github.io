@@ -12,27 +12,27 @@ function App() {
       </div>
       <div className="grid grid-cols-2">
         <div>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-          condimentum diam eu risus pulvinar, eu placerat augue pretium. Nunc
-          rutrum sem quis ante cursus, mollis vestibulum metus sodales.
-          Phasellus eget fringilla nulla. Nam non semper mi. Nullam vel tellus
-          elit. Etiam dignissim urna nec massa pellentesque, sit amet posuere
-          massa porta. Nam risus sem, luctus eu vestibulum in, ultrices eget
-          odio. Pellentesque condimentum sit amet erat quis gravida. In sed
-          iaculis orci. Ut non scelerisque sapien. Suspendisse quis tempor
-          tellus, vitae dapibus tortor. Vivamus ultrices finibus velit, ac
-          blandit velit pellentesque sed. Proin leo risus, dignissim vitae nisl
-          a, hendrerit sodales massa. Praesent nulla est, lobortis id posuere
-          at, pellentesque eget dolor. Donec eu iaculis nulla. Pellentesque
-          iaculis a ipsum et vulputate. Nunc in erat massa. Nulla dolor ligula,
-          maximus varius quam sit amet, commodo tempor metus. Nulla auctor
-          tincidunt velit sit amet imperdiet. Donec dictum vel turpis non
-          consectetur. Nunc consectetur pellentesque velit, consequat
-          ullamcorper arcu pharetra ut. Phasellus sit amet dignissim ante.
-          Curabitur elementum purus ex, nec scelerisque dui tincidunt ut. Donec
-          eu augue metus. Morbi dapibus lacinia lorem at venenatis. Phasellus
-          eget aliquet enim, euismod cursus neque. Morbi ac dolor ornare, varius
-          nibh at, consequat leo.
+          <div className="flex space-between">
+            <img
+              className="round-circle pop-shadow height-128px width-128px"
+              alt="profile"
+              src="https://avatars.githubusercontent.com/u/13403032"
+            ></img>
+            <div className="padding-8px">
+              A regular guy who enjoys programming, socializing, anime and
+              gaming. Currently sporting x amount of public repositories, x
+              anime watched, x manga read, x games played. When it comes to
+              food, the only thing I consume is coffee and noodles.
+            </div>
+          </div>
+          <div className="flex space-between">
+            <figure className="height-640px width-640px">
+              <embed src="https://wakatime.com/share/@taghead/1d8dc131-182f-4d23-903b-1c832a81fd70.svg"></embed>
+            </figure>
+            <figure className="height-640px width-640px">
+              <embed src="https://wakatime.com/share/@taghead/513607e2-2efe-4766-b3e6-b0721a4d4763.svg"></embed>
+            </figure>
+          </div>
         </div>
         <div className="grid grid-cols-1 grid-col-start-2">
           <div>
@@ -47,7 +47,7 @@ function App() {
               text="Education"
               textBody={
                 <div className="width-full height-full">
-                  <table className="width-full height-full text-center padding-2">
+                  <table className="width-full height-full text-center padding-2px">
                     <tr>
                       <th>Year</th>
                       <th>Course</th>

@@ -12,3 +12,7 @@
   border-bottom-left-radius: 2rem;
   border-bottom-right-radius: 2rem;
 }
+
+.round-circle {
+  border-radius: 9999px;
+}
