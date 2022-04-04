@@ -1,0 +1,30 @@
+/* Colors */
+.bg-water,
+.bg-water-hover:hover {
+  background-color: rgba(202, 244, 244, 0.5);
+}
+
+.bg-ivory,
+.bg-ivory-hover:hover {
+  background-color: rgba(252, 255, 233, 0.5);
+}
+
+.bg-blanched-almond,
+.bg-blanched-almond-hover:hover {
+  background-color: rgba(255, 242, 204, 0.5);
+}
+
+.bg-pale-pink,
+.bg-pale-pink-hover:hover {
+  background-color: rgba(253, 224, 217, 0.5);
+}
+
+.bg-tea-green,
+.bg-tea-green-hover:hover {
+  background-color: rgba(202, 239, 209, 0.5);
+}
+
+.bg-highlight-yellow,
+.bg-highlight-yellow-hover:hover {
+  background-color: rgba(255, 255, 0, 0.25);
+}

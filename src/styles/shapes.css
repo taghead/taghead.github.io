@@ -1,0 +1,18 @@
+/* Shapes */
+.round {
+  border-radius: 2rem;
+}
+
+.round-top {
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+}
+
+.round-bottom {
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+}
+
+.round-circle {
+  border-radius: 9999px;
+}

@@ -1,0 +1,29 @@
+@keyframes easeInFade {
+  from {
+    opacity: 0%;
+    left: -1.5rem;
+  }
+  to {
+    opacity: 100%;
+    left: 0%;
+  }
+}
+
+.button {
+  color: black;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  column-gap: 1rem;
+  width: 8rem;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.buttonText {
+  position: relative;
+  animation: easeInFade 1s 1;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}

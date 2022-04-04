@@ -1,0 +1,15 @@
+.layout {
+  /* background-color: rgba(0, 0, 0, 0.1); */
+  background-image: url(/public/background.svg);
+  min-height: 98vh;
+  padding-bottom: 2vh;
+}
+
+.layout > main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}

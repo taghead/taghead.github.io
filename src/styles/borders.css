@@ -1,0 +1,19 @@
+.border-bottom-solid {
+  border-bottom-style: solid;
+}
+
+.border-top-solid {
+  border-top-style: solid;
+}
+
+.border-right-solid {
+  border-right-style: solid;
+}
+
+.border-left-solid {
+  border-left-style: solid;
+}
+
+.border-none {
+  border: none;
+}
