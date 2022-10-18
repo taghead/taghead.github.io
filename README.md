@@ -44,8 +44,8 @@ Since your already here check out the site on [https://andrewchander.me](https:/
 
 #### **Why not use a css framework?**
 
-Well usually I do, my preferred framework is tailwindcss.
+Normally, I do, and my prefered framework is tailwindcss.
 
-I do think there is no need to recreate the wheel when excellent CSS frameworks are available.
+I believe there is no need to reinvent the wheel when there are excellent CSS frameworks available.
 
-However, but I feel that understanding the fundamentals is critical, and I want to demonstrate this to all of you.
+However, I believe that understanding the fundamentals is important, and I'd like to demonstrate this to you all.
