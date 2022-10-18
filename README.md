@@ -21,6 +21,14 @@ Since your already here check out the site on [https://andrewchander.me](https:/
 | [andrewchander.me](https://andrewchander.me)                | A react app hosted on Netlify at https://nimble-torte-77b2fb.netlify.app, which is built with React and css.                                                  |
 | [vanila.andrewchander.me](http://vanilla.andrewchander.me/) | My old portfolio site, no longer maintained. A static website hosted on GitHub Pages at https://taghead.github.io, which is built with Ruby, Jekyll and SaSS. |
 
+### Insights
+
+#### **The bloated CSS**
+
+In general, there is no need to recreate the wheel when excellent CSS frameworks are available.
+
+Yes, I did it for this project, but I feel that understanding the principles is critical, and I want to demonstrate this to all of you.
+
 ### Todo
 
 - [x] Create systematic boilerplate
