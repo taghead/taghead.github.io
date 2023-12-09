@@ -14,12 +14,12 @@ Vanilla: [![pages-build-deployment](https://github.com/taghead/taghead.github.io
 
 Well you found it, the super secret source code for my website.
 
-Since your already here check out the site on [https://andrewchander.me](https://andrewchander.me).
+Since your already here check out the site on [https://andrewchander.com](https://andrewchander.com).
 
 | Site                                                        | Description                                                                                                                                                   |
 | ----------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [andrewchander.me](https://andrewchander.me)                | A react app hosted on Netlify at https://nimble-torte-77b2fb.netlify.app, which is built with React and css.                                                  |
-| [vanila.andrewchander.me](http://vanilla.andrewchander.me/) | My old portfolio site, no longer maintained. A static website hosted on GitHub Pages at https://taghead.github.io, which is built with Ruby, Jekyll and SaSS. |
+| [andrewchander.me](https://andrewchander.com)                | A react app hosted on Netlify at https://nimble-torte-77b2fb.netlify.app, which is built with React and css.                                                  |
+| [vanila.andrewchander.me](http://vanilla.andrewchander.com/) | My old portfolio site, no longer maintained. A static website hosted on GitHub Pages at [https://taghead.github.io](https://taghead.github.io), which is built with Ruby, Jekyll and SaSS. |
 
 ### Todo
 
