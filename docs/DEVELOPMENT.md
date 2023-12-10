@@ -91,6 +91,8 @@ Information on additional files and folders following Jekylls conventions can be
 In an development environment utilize the following command to host the site locally http://localhost:4000. 
 
 ```
+bundle add jekyll
+bundle install
 bundle exec jekyll serve
 ```
 
