@@ -18,8 +18,8 @@ Since your already here check out the site on [https://andrewchander.com](https:
 
 | Site                                                        | Description                                                                                                                                                   |
 | ----------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [andrewchander.me](https://andrewchander.com)                | A react app hosted on Netlify at https://nimble-torte-77b2fb.netlify.app, which is built with React and css.                                                  |
-| [vanila.andrewchander.me](http://vanilla.andrewchander.com/) | My old portfolio site, no longer maintained. A static website hosted on GitHub Pages at [https://taghead.github.io](https://taghead.github.io), which is built with Ruby, Jekyll and SaSS. |
+| [andrewchander.com](https://andrewchander.com)                | A react app hosted on Netlify at https://nimble-torte-77b2fb.netlify.app, which is built with React and css.                                                  |
+| [vanilla.andrewchander.com](http://vanilla.andrewchander.com/) | My old portfolio site, no longer maintained. A static website hosted on GitHub Pages at [https://taghead.github.io](https://taghead.github.io), which is built with Ruby, Jekyll and SaSS. |
 
 ### Todo
 
