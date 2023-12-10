@@ -98,7 +98,7 @@ bundle exec jekyll serve
 
 These are steps that have already been completed and should not be repeated unless recreating the project from scratch.
 
-### Generate Scaffholding
+### Generate Scaffolding
 
 Once done generate their scaffolding using the command
 ```
